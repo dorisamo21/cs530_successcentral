@@ -1,0 +1,178 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  margin-bottom: 60px;
+}
+
+/*form styles*/
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.checkbox {
+  columns: 3 8em;
+}
+
+.checkbox li
+{
+  display:inline-block;
+  width:25%;
+}
+
+ul.checkbox li label {
+  margin-left:.25em;
+}
+
+/*matching table custom styles*/
+
+.smaller-type {
+  font-size: .8em;
+}
+
+.table-categories {
+  background-color: #a9a9a8;
+  text-align: left;
+  font-size: .8em;
+}
+.table-mentor {
+  background-color: #cececd;
+  font-size: .8em;
+}z
+.table-names {
+  background-color: #cececd;
+  text-align: center;
+  color: white;
+}
+.compare-button {
+  font-size: .8em;
+  margin: 5px;
+}
+
+a.matching-names {
+  color: #1969a9;
+}
+
+/*type ahead styles on matching page*/
+
+.typeahead, .tt-query, .tt-hint {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 15px; /* Set input font size */
+  height: 30px;
+  line-height: 30px;
+  outline: medium none;
+  padding: 8px 12px;
+  width: 200px;
+}
+.typeahead {
+  background-color: #FFFFFF;
+}
+.typeahead:focus {
+  border: 1px solid #0097CF;
+}
+.tt-query {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.tt-hint {
+  color: #999999;
+}
+.tt-menu {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 12px;
+  padding: 8px 0;
+  width:400px;
+}
+.tt-suggestion {
+  font-size: 18px;  /* Set suggestion dropdown font size */
+  padding: 3px 20px;
+}
+.tt-suggestion:hover {
+  cursor: pointer;
+  background-color: #0097CF;
+  color: #FFFFFF;
+}
+.tt-suggestion p {
+  margin: 0;
+}
+
+/*white background table*/
+
+.whitetable {
+  background-color: white;
+}
+
+/*custom user page styles*/
+
+.smbutton {
+  font-size: .8em;
+  padding: 2px;
+}
+.smtext {
+  font-size: .8em;
+}
+.addPhotoButton {
+  font-size: .5em;
+  padding: 2px;
+}
+
+/*custom style for user page div*/
+
+.userdiv {
+   background-color: white;
+   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 10px
+ }
+
+.redtext {
+  color: red;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: gray;
+}
