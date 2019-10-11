@@ -23,8 +23,8 @@ import java.util.Properties;
             props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
             props.put("mail.smtp.auth", "true");
             props.put("mail.smtp.port", "465");
-            String from = "successcentral123@gmail.com";
-            String password = "ehfltkah21";
+            String from = "successcentral@gmail.com";
+            String password = "PASSWORD_HIDDEN";
             String sub = "Success Central Password Reset";
 
             //get Session
